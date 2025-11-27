@@ -53,21 +53,21 @@ async def short(client, message):
 
     g = " ".join(time_parts) if time_parts else "0 seconds"
 
-    txt = f"<blockquote expandable>♻️ 𝐒𝐇𝐎𝐑𝐓𝐍𝐄𝐑 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒 💠</blockquote>\n<blockquote>💥 𝐒𝐇𝐎𝐑𝐓𝐍𝐄𝐑 𝐌𝐎𝐃𝐄: {d} </blockquote>\n<blockquote>⭐ 𝐕𝐄𝐑𝐈𝐅𝐈𝐂𝐀𝐓𝐈𝐎𝐍 𝐓𝐈𝐌𝐄 : {g} </blockquote>\n<blockquote expandable>⚠️ 𝐀𝐏𝐈 : {a}</blockquote>\n<blockquote expandable>🌐 𝐖𝐄𝐁𝐒𝐈𝐓𝐄 : {b}</blockquote>\n<blockquote expandable>𝐋𝐈𝐍𝐊𝐒 𝐁𝐘𝐏𝐀𝐒𝐒𝐄𝐃 : {c}</blockquote>"
+    txt = f"<blockquote expandable>♻️ 𝗦𝗛𝗢𝗥𝗧𝗡𝗘𝗥 𝗦𝗘𝗧𝗧𝗜𝗡𝗚 </blockquote>\n<blockquote> 𝗦𝗛𝗢𝗥𝗧𝗡𝗘𝗥 𝗠𝗢𝗗𝗘 : {d} </blockquote>\n<blockquote> 𝗩𝗘𝗥𝗜𝗙𝗜𝗖𝗔𝗧𝗜𝗢𝗡 𝗧𝗜𝗠𝗘 : {g} </blockquote>\n<blockquote expandable> 𝗔𝗣𝗜 : {a}</blockquote>\n<blockquote expandable>🌐 𝐖𝐄𝐁𝐒𝐈𝐓𝐄 : {b}</blockquote>\n<blockquote expandable>𝐋𝐈𝐍𝐊𝐒 𝐁𝐘𝐏𝐀𝐒𝐒𝐄𝐃 : {c}</blockquote>"
 
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton("𝐑𝐄𝐌𝐎𝐕𝐄 𝐒𝐇𝐎𝐑𝐓𝐄𝐑 ❌", callback_data="short_rem")],
+            [InlineKeyboardButton("𝗥𝗘𝗠𝗢𝗩𝗘 𝗦𝗛𝗢𝗥𝗧𝗘𝗥 ❌", callback_data="short_rem")],
             [
-                InlineKeyboardButton(f"𝟐𝟒𝐇 𝐌𝐎𝐃𝐄 {e}", callback_data="mode_24"),
-                InlineKeyboardButton(f"𝐏𝐄𝐑 𝐋𝐈𝐍𝐊 𝐌𝐎𝐃𝐄 {f}", callback_data="mode_link"),
+                InlineKeyboardButton(f"𝟮𝟰𝗛 𝗠𝗢𝗗𝗘 {e}", callback_data="mode_24"),
+                InlineKeyboardButton(f"𝗣𝗘𝗥 𝗟𝗜𝗡𝗞 𝗠𝗢𝗗𝗘 {f}", callback_data="mode_link"),
             ],
             [
-                InlineKeyboardButton("𝐂𝐇𝐀𝐍𝐆𝐄 𝐖𝐄𝐁𝐒𝐈𝐓𝐄 ", callback_data="short_web"),
-                InlineKeyboardButton("𝐂𝐇𝐀𝐍𝐆𝐄 𝐀𝐏𝐈", callback_data="short_api"),
+                InlineKeyboardButton("𝗖𝗛𝗔𝗡𝗚𝗘 𝗪𝗘𝗕𝗦𝗜𝗧𝗘", callback_data="short_web"),
+                InlineKeyboardButton("𝗖𝗛𝗔𝗡𝗚𝗘 𝗔𝗣𝗜", callback_data="short_api"),
             ],
             [
-                InlineKeyboardButton("ϲℓοѕє", callback_data="close"),
+                InlineKeyboardButton("𝗖𝗟𝗢𝗦𝗘 ", callback_data="close"),
             ],
         ]
     )
