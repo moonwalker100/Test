@@ -302,13 +302,13 @@ async def free_ep(c, q):
 
 
 async def premcall(client, query):
-    text=text_go("<u>𝗔𝗻𝗶𝗺𝗲𝗧𝗼𝗼𝗻 𝗜𝗡𝗗𝗘𝗫 </u>🌟\n\n<blockquote expandable><b>ʙᴇɴᴇꜰɪᴛꜱ ᴏꜰ ᴩʀᴇᴍɪᴜᴍ ᴜꜱᴇʀ :-</b>\n\n🌸 ʏᴏᴜ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ɢᴇᴛ 🌐 ᴀʟʟ ᴀɴɪᴍᴇ ᴇᴩɪꜱᴏᴅᴇꜱ ꜰʀᴇᴇ ( ɴᴏ ᴀᴅꜱ )</blockquote>\n\n<blockquote expandable><b>ᴀɴɪᴍᴇᴛᴏᴏɴ ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ ⚜️</b>\n\n⚡ ᴍᴏɴᴛʜʟʏ - 40₹  \n⭐ 6 ᴍᴏɴᴛʜꜱ - 199₹  \n🌟 12 ᴍᴏɴᴛʜꜱ - 399₹</blockquote>\n\n💳 𝐔𝐏𝐈 / 𝐁𝐚𝐧𝐤 𝐓𝐫𝐚𝐧𝐬𝐟𝐞𝐫 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞  \n\n⚜️ 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐅𝐨𝐫 <b>@JD_Namikaze</b>  \n𝐁𝐮𝐲 𝐘𝐨𝐮𝐫 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 🌟")
+    text=text_go("<u> 𝗣𝗟𝗔𝗬 𝗧𝗔𝗠𝗜𝗟 𝗜𝗡𝗗𝗘𝗫 </u>\n\n<blockquote expandable><b>ʙᴇɴᴇꜰɪᴛꜱ ᴏꜰ ᴩʀᴇᴍɪᴜᴍ ᴜꜱᴇʀ :-</b>\n\n ʏᴏᴜ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ɢᴇᴛ 🌐 ᴀʟʟ ᴀɴɪᴍᴇ ᴇᴩɪꜱᴏᴅᴇꜱ ꜰʀᴇᴇ ( ɴᴏ ᴀᴅꜱ )</blockquote>\n\n<blockquote expandable><b>ᴀɴɪᴍᴇᴛᴏᴏɴ ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ </b>\n\n ๏ ᴍᴏɴᴛʜʟʏ - 40₹  \n๏ 6 ᴍᴏɴᴛʜꜱ - 199₹  \n๏ 12 ᴍᴏɴᴛʜꜱ - 399₹</blockquote>\n\n💳 𝐔𝐏𝐈 / 𝐁𝐚𝐧𝐤 𝐓𝐫𝐚𝐧𝐬𝐟𝐞𝐫 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞  \n\n 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐅𝐨𝐫 <b>@Here_remo</b>  \n𝐁𝐮𝐲 𝐘𝐨𝐮𝐫 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 🌟")
     reply_markup = InlineKeyboardMarkup(
         inline_keyboard=[
             [
                 InlineKeyboardButton(
                     text="💳 Buy Premium",
-                    url=f"tg://user?id={OWNER_IDS[0]}"
+                    url=f"tg://user?id={1718481517[0]}"
                 ),
                 InlineKeyboardButton(
                     text="🎇 Cancel",
