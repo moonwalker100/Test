@@ -49,8 +49,8 @@ async def fsub1(client, message):
                 channels.append((int(chat_id), invite_link))
             except ValueError:
                 continue
-    fsub_text = "<blockquote>⚜ 𝐅𝐨𝐫𝐜𝐞 𝐒𝐮𝐛 𝐒𝐞𝐭𝐭𝐢𝐧𝐠𝐬 ♻️</blockquote>\n"
-    fsub_text += "<blockquote expandable>┏━━━•❅•°•❈ 𝐍𝐨𝐫𝐦𝐚𝐥 𝐅𝐬𝐮𝐛 •°•❅•━━┓\n\n"
+    fsub_text = "<blockquote> 𝗙𝗢𝗥𝗖𝗘 𝗦𝗨𝗕 𝗦𝗘𝗧𝗧𝗜𝗡𝗚 ♻️</blockquote>\n"
+    fsub_text += "<blockquote expandable> | 𝗡𝗢𝗥𝗠𝗔𝗟 𝗙𝗢𝗥𝗖𝗘 𝗦𝗨𝗕 | \n\n"
     owner = await get_variable("owner", [])
     for index, channel_id in enumerate(FORCE_SUB_CHANNELS, start=1):
         try:
@@ -74,8 +74,8 @@ async def fsub1(client, message):
                     )
             except BaseException:
                 pass
-    fsub_text += "┗━━━━━━━━━━━━━━━━━━━━━┛</blockquote>\n"
-    fsub_text += "<blockquote expandable>┏━━━•❅•°•❈ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐅𝐬𝐮𝐛 •°•❅•━━┓\n\n"
+    fsub_text += "━━━━━━━━━━━━━━━━━━━━</blockquote>\n"
+    fsub_text += "<blockquote expandable> | 𝗥𝗘𝗤𝗨𝗘𝗦𝗧 𝗙𝗢𝗥𝗖𝗘 𝗦𝗨𝗕 | \n\n"
     for index, (channel_id, link) in enumerate(channels, start=1):
         try:
             ab = await get_variable(f"req{link}", "None")
@@ -94,16 +94,16 @@ async def fsub1(client, message):
             fsub_text += f"{index}. ❌ Channel is private or the bot is banned (ID: <code>{channel_id}</code>)\n"
         except RPCError:
             fsub_text += f"{index}. ❌ Bot is not in the channel or cannot access it (ID: <code>{channel_id}</code>)"
-    fsub_text += "┗━━━━━━━━━━━━━━━━━━━━━┛</blockquote>\n"
+    fsub_text += "━━━━━━━━━━━━━━━━━━━━</blockquote>\n"
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("𝐀𝐃𝐃 𝐅𝐒𝐔𝐁", callback_data="fsub_add"),
-                InlineKeyboardButton("𝐑𝐄𝐌𝐎𝐕𝐄 𝐅𝐒𝐔𝐁", callback_data="fsub_rem"),
+                InlineKeyboardButton("𝗔𝗗𝗗 𝗙𝗦𝗨𝗕 ", callback_data="fsub_add"),
+                InlineKeyboardButton("𝗥𝗘𝗠𝗢𝗩𝗘 𝗙𝗦𝗨𝗕 ", callback_data="fsub_rem"),
             ],
             [
-                InlineKeyboardButton("𝐀𝐃𝐃 𝐑𝐒𝐔𝐁", callback_data="rsub_add"),
-                InlineKeyboardButton("𝐑𝐄𝐌𝐎𝐕𝐄 𝐑𝐒𝐔𝐁", callback_data="rsub_rem"),
+                InlineKeyboardButton("𝗔𝗗𝗗 𝗥𝗦𝗨𝗕", callback_data="rsub_add"),
+                InlineKeyboardButton("𝗥𝗘𝗠𝗢𝗩𝗘 𝗥𝗦𝗨𝗕", callback_data="rsub_rem"),
             ],
             [
                 InlineKeyboardButton("ϲℓοѕє", callback_data="close"),
