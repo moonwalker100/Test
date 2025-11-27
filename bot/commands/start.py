@@ -59,15 +59,15 @@ async def start(client, message, query=False):
             inline_keyboard=[
                 [
                     InlineKeyboardButton(
-                        text=text_go("🎇 INdex 🎇"), callback_data="index"
+                        text=text_go("ɪɴᴅᴇx"), callback_data="index"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        text=text_go("📚 premium plans 📚"), callback_data="prem"
+                        text=text_go("ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ"), callback_data="prem"
                     ),
                     InlineKeyboardButton(
-                        text=text_go("💬 support 💬"), callback_data="contact"
+                        text=text_go("ꜱᴜᴘᴘᴏʀᴛ"), callback_data="contact"
                     ),
                 ],
             ]
@@ -84,15 +84,15 @@ async def home(client, message, query=False):
         inline_keyboard=[
             [
                 InlineKeyboardButton(
-                    text=text_go("🎇 INdex 🎇"), callback_data="index"
+                    text=text_go("ɪɴᴅᴇx"), callback_data="index"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text=text_go("📚 premium plans 📚"), callback_data="prem"
+                    text=text_go("ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ"), callback_data="prem"
                 ),
                 InlineKeyboardButton(
-                    text=text_go("💬 support 💬"), callback_data="contact"
+                    text=text_go("ꜱᴜᴘᴘᴏʀᴛ"), callback_data="contact"
                 ),
             ],
         ]
@@ -109,10 +109,10 @@ async def contact(client, query=False):
         inline_keyboard=[
             [
                 InlineKeyboardButton(
-                    text=text_go("🎊home🎊"), callback_data="home"
+                    text=text_go("ʜᴏᴍᴇ"), callback_data="home"
                 ),
                 InlineKeyboardButton(
-                    text=text_go("⛑cancel⛑"), callback_data="concel"
+                    text=text_go("ᴄᴀɴᴄᴇʟ"), callback_data="concel"
                 ),
             ],
         ]
