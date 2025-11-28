@@ -45,15 +45,14 @@ AUTO_DELETE_TIME = int(os.environ.get("AUTO_DELETE_TIME", 7200))
 
 SUPPORT_TEXT = """<b> 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 & 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 </b>
 
-<blockquote>Hey there, <b>Senpai 👋</b>
-Need help with the bot or facing any issue?
-Don’t worry, I’ve got you covered! </blockquote>
+<blockquote>ʜᴇʏ ᴛʜᴇʀᴇ, <b>ꜱᴇɴᴘᴀɪ 👋</b>
+ɴᴇᴇᴅ ʜᴇʟᴘ ᴡɪᴛʜ ᴛʜᴇ ʙᴏᴛ ᴏʀ ꜰᴀᴄɪɴɢ ᴀɴʏ ɪꜱꜱᴜᴇ? ᴅᴏɴ’ᴛ ᴡᴏʀʀʏ, ɪ’ᴠᴇ ɢᴏᴛ ʏᴏᴜ ᴄᴏᴠᴇʀᴇᴅ! </blockquote>
 
 ━━━━━━━━━━━━━━━
 
-<blockquote><b>⚔️ How to Use?</b>
+<blockquote><b> How to Use?</b>
 
-• Report any bug to the developer.
+• Report any bug to the developer
 
 <b>📞 Contact Support</b>
 • ᴏᴡɴᴇʀ: <a href="https://t.me/Here_remo"> Ꮢᴇᴍᴏ 🜲</a>
