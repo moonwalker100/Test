@@ -308,7 +308,7 @@ async def premcall(client, query):
             [
                 InlineKeyboardButton(
                     text="💳 Buy Premium",
-                    url=f"tg://user?id={1718481517[0]}"
+                    url=f"tg://user?id=1718481517"
                 ),
                 InlineKeyboardButton(
                     text="🎇 Cancel",
