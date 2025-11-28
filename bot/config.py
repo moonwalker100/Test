@@ -65,22 +65,22 @@ Don’t worry, I’ve got you covered! </blockquote>
 <b>💡 Tip:</b> Always make sure you’re using the <i>latest bot version</i> for best performance! 🚀"""
 
 images = [
-    "https://i.postimg.cc/RVD4RpG1/1329839.jpg",
-    "https://i.postimg.cc/G3MCLS00/1329845.jpg",
-    "https://i.postimg.cc/NFPqdL8G/1329915.jpg",
-    "https://i.postimg.cc/yYBvG7ps/1332278.jpg",
-    "https://i.postimg.cc/NfHBd7nW/1343620.png",
-    "https://i.postimg.cc/TYqH2K5K/1343746.png",
-    "https://i.postimg.cc/h4m5wySb/1343747.png",
-    "https://i.postimg.cc/fThrhcy4/1362335.jpg",
-    "https://i.postimg.cc/j52rPzN3/1363139.png",
-    "https://i.postimg.cc/wM5FBrvC/545909.jpg",
-    "https://i.postimg.cc/BQgM9RRD/599379.jpg",
-    "https://i.postimg.cc/Kj1svfLF/740666.png",
-    "https://i.postimg.cc/7YmMQ0Tn/749966.png",
-    "https://i.postimg.cc/t70DRjpt/928887.jpg",
-    "https://i.postimg.cc/qRD45m4d/goku-ultra-instinct-5120x2880-21414.png",
-    "https://i.postimg.cc/yYgYwzDp/luffy-straw-hat-3840x2160-20824.png",
+    "https://telegra.ph/file/5094c60f1122bbae9b3d9.jpg",
+    "https://telegra.ph/file/463501fe337f02dc034ba.jpg",
+    "https://telegra.ph/file/ad3486519fd59f73f7f46.jpg",
+    "https://telegra.ph/file/8d4867e3d7d8e8db70f73.jpg",
+    "https://telegra.ph/file/3b8897b58d83a512a56ac.jpg",
+    "https://telegra.ph/file/11115f9a5c035e2d90bd8.jpg",
+    "https://telegra.ph/file/a292bc4b99f9a1854f6d7.jpg",
+    "https://telegra.ph/file/94aac0f8141dc44eadfc6.jpg",
+    "https://telegra.ph/file/1f8d855fb7a70b4fcaf68.jpg",
+    "https://telegra.ph/file/849b567f8072117353c5c.jpg",
+    "https://telegra.ph/file/e8555407480d52ac1a6b7.jpg",
+    "https://telegra.ph/file/2a301e221bf3c800bb48c.jpg",
+    "https://telegra.ph/file/faefbf4a710eb05647d9c.jpg",
+    "https://telegra.ph/file/6219c9d5edbeecfd3a45e.jpg",
+    "https://telegra.ph/file/db1f952a28b0aa53bedb1.jpg",
+    "https://telegra.ph/file/32797f53236187e9f5e1f.jpg",
 ]
 
 
