@@ -11,12 +11,12 @@ from database import get_variable, set_variable
 
 async def admin(client, message):
     a = await get_variable("admin", [])
-    txt = f"<blockquote expandable>💠 𝐀𝐃𝐌𝐈𝐍 𝐏𝐀𝐍𝐄𝐋  ♻️\n</blockquote>\n<blockquote expandable>🚩 𝐀𝐃𝐌𝐈𝐍 :- {a}\n</blockquote>\n<blockquote expandable>⚠️ 𝐍𝐎𝐓𝐄 - ADMINS CAN USE ALL BOT COMMMANDS EXCEPT FSUB, ADMIN ‼️</blockquote>"
+    txt = f"<blockquote expandable>𝗔𝗗𝗠𝗜𝗡 𝗣𝗔𝗡𝗘𝗟 ♻️\n</blockquote>\n<blockquote expandable> 𝗔𝗗𝗠𝗜𝗡 :- {a}\n</blockquote>\n<blockquote expandable> 𝗡𝗢𝗧𝗘 - ᴀᴅᴍɪɴꜱ ᴄᴀɴ ᴜꜱᴇ ᴀʟʟ ʙᴏᴛ ᴄᴏᴍᴍᴍᴀɴᴅꜱ ᴇxᴄᴇᴘᴛ ꜰꜱᴜʙ, ᴀᴅᴍɪɴ ‼️</blockquote>"
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("𝐀𝐃𝐃 𝐀𝐃𝐌𝐈𝐍", callback_data="admin_add"),
-                InlineKeyboardButton("𝐑𝐄𝐌𝐎𝐕𝐄 𝐀𝐃𝐌𝐈𝐍", callback_data="admin_rem"),
+                InlineKeyboardButton("𝗔𝗗𝗗 𝗔𝗗𝗠𝗜𝗡", callback_data="admin_add"),
+                InlineKeyboardButton("𝗥𝗘𝗠𝗢𝗩𝗘 𝗔𝗗𝗠𝗜𝗡", callback_data="admin_rem"),
             ],
             [
                 InlineKeyboardButton("ϲℓοѕє", callback_data="close"),
@@ -24,7 +24,7 @@ async def admin(client, message):
         ]
     )
     await message.reply_photo(
-        photo="https://i.ibb.co/kVwykh4J/ce566244dba9.jpg",
+        photo="https://graph.org/file/133955e7359e368757241-3b22219c9508b4429c.jpg",
         caption=txt,
         reply_markup=keyboard,
         message_effect_id=5104841245755180586,
@@ -45,10 +45,10 @@ async def admin2(client, query):
         )
         return
     txt = (
-        "<blockquote expandable>⚠️ <b>𝖣𝗈 𝖮𝗇𝖾 𝖡𝖾𝗅𝗈𝗐</b> ⚠️</blockquote>\n"
-        "<blockquote expandable><i>🔱 𝖥𝗈𝗋𝗐𝖺𝗋𝖽 𝖠 𝖬𝖾𝗌𝗌𝖺𝗀𝖾 𝖥𝗋𝗈𝗆 𝖠𝖽𝗆𝗂𝗇</i></blockquote>\n"
-        "<blockquote expandable><i>💠 𝖲𝖾𝗇𝖽 𝖬𝖾 𝖠𝖽𝗆𝗂𝗇 𝖨𝖣</i></blockquote>"
-        "<blockquote>♨️ 𝗠𝗔𝗞𝗘 𝗦𝗨𝗥𝗘 𝗔𝗗𝗠𝗜𝗡 𝗜𝗗 𝗜𝗦 𝗩𝗔𝗟𝗜𝗗 ♨️</blockquote>"
+        "<blockquote expandable>‼️ <b>ᴅᴏ ᴏɴᴇ ʙᴇʟᴏᴡ</b>‼️ </blockquote>\n"
+        "<blockquote expandable><i>ꜰᴏʀᴡᴀʀᴅ ᴀ ᴍᴇꜱꜱᴀɢᴇ ꜰʀᴏᴍ ᴀᴅᴍɪɴ</i></blockquote>\n"
+        "<blockquote expandable><i>ꜱᴇɴᴅ ᴍᴇ ᴀᴅᴍɪɴ ɪᴅ</i></blockquote>"
+        "<blockquote>𝗠𝗔𝗞𝗘 𝗦𝗨𝗥𝗘 𝗔𝗗𝗠𝗜𝗡 𝗜𝗗 𝗜𝗦 𝗩𝗔𝗟𝗜𝗗</blockquote>"
     )
 
     if action == "add":
