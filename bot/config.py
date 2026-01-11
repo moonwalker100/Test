@@ -40,7 +40,7 @@ DB_URI = os.environ.get("DATABASE_URL","mongodb+srv://moonwalker1092:moonwalker1
 
 START_MESSAGE = """
 <blockquote expandable>
-<b>ʜᴇʏ {}, {}
+<b>ʜᴇʏ {},
 
 I ᴀᴍ ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ɪɴᴅᴇx ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ,
 Tʜɪꜱ ɪꜱ ᴀ ᴄᴇɴᴛʀᴇ ᴛᴏ ᴡᴀᴛᴄʜ ʏᴏᴜʀ ꜰᴀᴠᴏᴜʀɪᴛᴇ ᴀɴɪᴍᴇ ʟᴇᴛ'ꜱ ʀᴏʟʟ!</b>
