@@ -38,7 +38,17 @@ PORT = os.environ.get("PORT", "8030")
 # Database
 DB_URI = os.environ.get("DATABASE_URL","mongodb+srv://moonwalker1092:moonwalker1234@cluster0.svrznzr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",)
 
-START_MESSAGE = "<blockquote expandable><b>ʜᴇʏ {}, {}I ᴀᴍ ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ɪɴᴅᴇx ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ,Tʜɪꜱ ɪꜱ ᴀ ᴄᴇɴᴛʀᴇ ᴛᴏ ᴡᴀᴛᴄʜ ʏᴏᴜʀ ꜰᴀᴠᴏᴜʀɪᴛᴇ ᴀɴɪᴍᴇ ʟᴇᴛ'ꜱ ʀᴏʟʟ!</b></blockquote> <b>‣ Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ :</b><a href="https://t.me/Here_remo">Ꮢᴇᴍᴏ</a>"
+START_MESSAGE = """
+<blockquote expandable>
+<b>ʜᴇʏ {}, {}
+
+I ᴀᴍ ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ɪɴᴅᴇx ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ,
+Tʜɪꜱ ɪꜱ ᴀ ᴄᴇɴᴛʀᴇ ᴛᴏ ᴡᴀᴛᴄʜ ʏᴏᴜʀ ꜰᴀᴠᴏᴜʀɪᴛᴇ ᴀɴɪᴍᴇ ʟᴇᴛ'ꜱ ʀᴏʟʟ!</b>
+</blockquote>
+
+<b>‣ Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ :</b>
+<a href="https://t.me/Here_remo">Ꮢᴇᴍᴏ</a>
+"""
 
 DB_NAME = os.environ.get("DATABASE_NAME", "argon")
 
