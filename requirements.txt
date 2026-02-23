@@ -2,7 +2,6 @@ pyrofork
 tgcrypto-pyrofork
 motor
 aiofiles
-asyncio
 python-dotenv
 aiohttp
 Flask==2.2.2
