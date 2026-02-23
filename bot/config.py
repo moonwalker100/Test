@@ -6,13 +6,13 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8518910641:AAG70JtguCseqV0K1kQzAZUaWqW0T6JgkI0")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 # Your API ID from my.telegram.orgh
-APP_ID = int(os.environ.get("APP_ID", "27693340"))
+APP_ID = int(os.environ.get("APP_ID", "27340"))
 
 # Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "1056193e68c138ee16edc02578c559e1")
+API_HASH = os.environ.get("API_HASH", "10568c19e1")
 
 # Your db channel Id
 LOG_CHANNEL = int(os.environ.get("CHANNEL_ID", "-1002849677750"))
@@ -40,13 +40,13 @@ DB_URI = os.environ.get("DATABASE_URL","mongodb+srv://moonwalker1092:moonwalker1
 
 START_MESSAGE = """<blockquote expandable><b>⚡ Hᴇʏ {},I ᴀᴍ ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ɪɴᴅᴇx ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ,Tʜɪꜱ ɪꜱ ᴀ ᴄᴇɴᴛʀᴇ ᴛᴏ ᴡᴀᴛᴄʜ ʏᴏᴜʀ ꜰᴀᴠᴏᴜʀɪᴛᴇ ᴀɴɪᴍᴇ ʟᴇᴛ'ꜱ ʀᴏʟʟ!</b></blockquote><b> \n\n‣ Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ :</b><a href="https://t.me/Here_remo">Ꮢᴇᴍᴏ</a>"""
 
-DB_NAME = os.environ.get("DATABASE_NAME", "argon")
+DB_NAME = os.environ.get("DATABASE_NAME", "remodb")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "500"))
 
 AUTO_DELETE_TIME = int(os.environ.get("AUTO_DELETE_TIME", 7200))
 
-SUPPORT_TEXT = """<b> 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 & 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 </b>
+SUPPORT_TEXT = """<b>𝗦𝗨𝗣𝗣𝗢𝗥𝗧 & 𝗖𝗢𝗡𝗧𝗔𝗖𝗧</b>
 
 <blockquote><b>ʜᴇʏ ᴛʜᴇʀᴇ, ꜱᴇɴᴘᴀɪ
 ɴᴇᴇᴅ ʜᴇʟᴘ ᴡɪᴛʜ ᴛʜᴇ ʙᴏᴛ ᴏʀ ꜰᴀᴄɪɴɢ ᴀɴʏ ɪꜱꜱᴜᴇ? ᴅᴏɴ’ᴛ ᴡᴏʀʀʏ, ɪ’ᴠᴇ ɢᴏᴛ ʏᴏᴜ ᴄᴏᴠᴇʀᴇᴅ! </b></blockquote>
