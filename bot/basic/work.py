@@ -19,7 +19,7 @@ log = LOGGER(__name__)
 
 async def not_subscribed(c, a, message):
     user_id = message.from_user.id
-    ab = await message.reply_text("❗️ Checking subscription...")
+    ab = await message.reply_text("⚙️ 𝙲𝚘𝚖𝚒𝚗𝚐 .....")
 
     # Get forced channels
     try:
