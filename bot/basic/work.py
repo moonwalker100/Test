@@ -21,7 +21,7 @@ async def not_subscribed(c, a, message):
     user_id = message.from_user.id
     ab = await message.reply_text(
         "⚙️ <blockquote>𝙲𝚘𝚖𝚒𝚗𝚐 .....</blockquote>",
-    parse_mode="HTML"
+    parse_mode="html"
     )
 
     # Get forced channels
