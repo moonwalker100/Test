@@ -1,5 +1,6 @@
 import random
 from datetime import datetime, timedelta
+from pyrogram.enums import ParseMode
 
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.errors import (
@@ -20,8 +21,8 @@ log = LOGGER(__name__)
 async def not_subscribed(c, a, message):
     user_id = message.from_user.id
     ab = await message.reply_text(
-        "⚙️ <blockquote>𝙲𝚘𝚖𝚒𝚗𝚐 .....</blockquote>",
-    parse_mode="html"
+          "⚙️ <blockquote>𝙲𝚘𝚖𝚒𝚗𝚐 .....</blockquote>",
+       parse_mode=ParseMode.HTML
     )
 
     # Get forced channels
