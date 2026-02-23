@@ -21,7 +21,7 @@ log = LOGGER(__name__)
 async def not_subscribed(c, a, message):
     user_id = message.from_user.id
     ab = await message.reply_text(
-          "⚙️ <blockquote>𝙲𝚘𝚖𝚒𝚗𝚐 .....</blockquote>",
+          "<blockquote><b>⚙️ 𝙲𝚘𝚖𝚒𝚗𝚐 .....</b></blockquote>",
        parse_mode=ParseMode.HTML
     )
 
