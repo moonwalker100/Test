@@ -48,7 +48,7 @@ async def start(client, message, query=False):
             time = now + timedelta(seconds=int(very))
             await set_variable(f"t{user_id}", time)
             await set_variable(f"token{user_id}", None)
-            await message.reply_text("✅ 𝐕𝐄𝐑𝐈𝐅𝐈𝐂𝐀𝐓𝐈𝐎𝐍 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋")
+            await message.reply_text("✅ 𝗩𝗘𝗥𝗜𝗙𝗜𝗖𝗔𝗧𝗜𝗢𝗡 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟")
             return
         else:
             log.info(f"I gey :-{text}, i want {token}")
@@ -59,15 +59,15 @@ async def start(client, message, query=False):
             inline_keyboard=[
                 [
                     InlineKeyboardButton(
-                        text=text_go("ɪɴᴅᴇx"), callback_data="index"
+                        text=text_go("• ɪɴᴅᴇx •"), callback_data="index"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        text=text_go("ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ"), callback_data="prem"
+                        text=text_go("• ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ •"), callback_data="prem"
                     ),
                     InlineKeyboardButton(
-                        text=text_go("ꜱᴜᴘᴘᴏʀᴛ"), callback_data="contact"
+                        text=text_go("• ꜱᴜᴘᴘᴏʀᴛ •"), callback_data="contact"
                     ),
                 ],
             ]
@@ -84,15 +84,15 @@ async def home(client, message, query=False):
         inline_keyboard=[
             [
                 InlineKeyboardButton(
-                    text=text_go("ɪɴᴅᴇx"), callback_data="index"
+                    text=text_go("• ɪɴᴅᴇx •"), callback_data="index"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text=text_go("ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ"), callback_data="prem"
+                    text=text_go("• ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ •"), callback_data="prem"
                 ),
                 InlineKeyboardButton(
-                    text=text_go("ꜱᴜᴘᴘᴏʀᴛ"), callback_data="contact"
+                    text=text_go("• ꜱᴜᴘᴘᴏʀᴛ •"), callback_data="contact"
                 ),
             ],
         ]
