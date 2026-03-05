@@ -53,7 +53,7 @@ async def short(client, message):
 
     g = " ".join(time_parts) if time_parts else "0 seconds"
 
-    txt = f"<blockquote expandable>♻️ 𝗦𝗛𝗢𝗥𝗧𝗡𝗘𝗥 𝗦𝗘𝗧𝗧𝗜𝗡𝗚 </blockquote>\n<blockquote> 𝗦𝗛𝗢𝗥𝗧𝗡𝗘𝗥 𝗠𝗢𝗗𝗘 : {d} </blockquote>\n<blockquote> 𝗩𝗘𝗥𝗜𝗙𝗜𝗖𝗔𝗧𝗜𝗢𝗡 𝗧𝗜𝗠𝗘 : {g} </blockquote>\n<blockquote expandable> 𝗔𝗣𝗜 : {a}</blockquote>\n<blockquote expandable>🌐 𝐖𝐄𝐁𝐒𝐈𝐓𝐄 : {b}</blockquote>\n<blockquote expandable>𝐋𝐈𝐍𝐊𝐒 𝐁𝐘𝐏𝐀𝐒𝐒𝐄𝐃 : {c}</blockquote>"
+    txt = f"<blockquote expandable>♻️ 𝗦𝗛𝗢𝗥𝗧𝗡𝗘𝗥 𝗦𝗘𝗧𝗧𝗜𝗡𝗚 </blockquote>\n\n<blockquote> 𝗦𝗛𝗢𝗥𝗧𝗡𝗘𝗥 𝗠𝗢𝗗𝗘 : {d} </blockquote>\n\n<blockquote> 𝗩𝗘𝗥𝗜𝗙𝗜𝗖𝗔𝗧𝗜𝗢𝗡 𝗧𝗜𝗠𝗘 : {g} </blockquote>\n\n<blockquote expandable> 𝗔𝗣𝗜 : {a}</blockquote>\n\n<blockquote expandable>🌐 𝗪𝗘𝗕𝗦𝗜𝗧𝗘 : {b}</blockquote>\n\n<blockquote expandable>𝗟𝗜𝗡𝗞 𝗕𝗬𝗣𝗔𝗦𝗦 : {c}</blockquote>"
 
     keyboard = InlineKeyboardMarkup(
         [
@@ -67,7 +67,7 @@ async def short(client, message):
                 InlineKeyboardButton("𝗖𝗛𝗔𝗡𝗚𝗘 𝗔𝗣𝗜", callback_data="short_api"),
             ],
             [
-                InlineKeyboardButton("𝗖𝗟𝗢𝗦𝗘 ", callback_data="close"),
+                InlineKeyboardButton("• ᴄʟᴏꜱᴇ •", callback_data="close"),
             ],
         ]
     )
