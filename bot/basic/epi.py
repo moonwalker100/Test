@@ -424,6 +424,10 @@ async def file(client, q=0, filei=0, uuid=0, anime_id=0, episode=0, verify=0, me
                 f"<blockquote>This file will be deleted in {FILE_AUTO_DELETE / 60} Minutes. Because of Copyright issue.</blockquote>"
             )
 
+            notification_msg = await sent_msg.reply_text(
+                f"""<b>⚠️ Dᴜᴇ ᴛᴏ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs....\n<blockquote>Yᴏᴜʀ ғɪʟᴇs ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ᴡɪᴛʜɪɴ <a href="https://t.me/{username}">{time}</a>ᴍɪɴᴜᴛᴇs.Sᴏ ᴘʟᴇᴀsᴇ ғᴏʀᴡᴀʀᴅ ᴛʜᴇᴍ ᴛᴏ ᴀɴʏ ᴏᴛʜᴇʀ ᴘʟᴀᴄᴇ ғᴏʀ ғᴜᴛᴜʀᴇ ᴀᴠᴀɪʟᴀʙɪʟɪᴛʏ.</b></blockquote>"""
+            )
+
             await asyncio.sleep(FILE_AUTO_DELETE)
 
             filename = (
