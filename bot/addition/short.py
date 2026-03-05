@@ -73,7 +73,7 @@ async def short(client, message):
     )
 
     await message.reply_photo(
-        photo="https://i.ibb.co/5xtpFb2T/f4faad6ca1c1.jpg",
+        photo="https://graph.org/file/7fd7b27726d9e5d4f0d62-3b4ae2708c080804cf.jpg",
         caption=txt,
         reply_markup=keyboard,
         message_effect_id=5104841245755180586,
