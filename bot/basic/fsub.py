@@ -49,7 +49,7 @@ async def fsub1(client, message):
                 channels.append((int(chat_id), invite_link))
             except ValueError:
                 continue
-    fsub_text = "<blockquote> 𝗙𝗢𝗥𝗖𝗘 𝗦𝗨𝗕 𝗦𝗘𝗧𝗧𝗜𝗡𝗚 ♻️</blockquote>\n"
+    fsub_text = "<blockquote> 𝗙𝗢𝗥𝗖𝗘 𝗦𝗨𝗕 𝗦𝗘𝗧𝗧𝗜𝗡𝗚 ♻️</blockquote>\n\n"
     fsub_text += "<blockquote expandable> | 𝗡𝗢𝗥𝗠𝗔𝗟 𝗙𝗢𝗥𝗖𝗘 𝗦𝗨𝗕 | \n\n"
     owner = await get_variable("owner", [])
     for index, channel_id in enumerate(FORCE_SUB_CHANNELS, start=1):
@@ -58,8 +58,8 @@ async def fsub1(client, message):
             title = chat.title
             subscriber_count = chat.members_count
             fsub_text += f"{index}. {title}\n"
-            fsub_text += f"   ├─ Total Subscribers: {subscriber_count}\n"
-            fsub_text += f"   └─ ID: <code>{channel_id}</code>\n\n"
+            fsub_text += f"   ├─ <b>Tᴏᴛᴀʟ ꜱᴜʙꜱᴄʀɪʙᴇʀꜱ : {subscriber_count}</b>\n"
+            fsub_text += f"   └─ <b>ID: <code>{channel_id}</code></b>\n\n"
         except ChatAdminRequired:
             fsub_text += f"{index}. ❌ Bot lacks admin rights in the channel (ID: <code>{channel_id}</code>)\n"
         except ChannelPrivate:
@@ -106,13 +106,13 @@ async def fsub1(client, message):
                 InlineKeyboardButton("𝗥𝗘𝗠𝗢𝗩𝗘 𝗥𝗦𝗨𝗕", callback_data="rsub_rem"),
             ],
             [
-                InlineKeyboardButton("ϲℓοѕє", callback_data="close"),
+                InlineKeyboardButton("• Cʟᴏꜱᴇ •", callback_data="close"),
             ],
         ]
     )
     await a.delete()
     await message.reply_photo(
-        photo="https://i.ibb.co/YBLs424Q/x.jpg",
+        photo="https://graph.org/file/7dcef7bfa24d891bf9c3c-60becbd2e9ac330fed.jpg",
         caption=fsub_text,
         reply_markup=keyboard,
     )
