@@ -59,8 +59,8 @@ async def awailable_command(client, message, query=0, edit=0):
     if edit:
         await edit.message.edit(
             text=text_go(
-                f"🔤 anime index \n <blockquote>total uploads = ✨{
-                    len(namelist)}✨ </blockquote>"
+                f"<b> 𝗔𝗡𝗜𝗠𝗘 𝗜𝗡𝗗𝗘𝗫\n\n<blockquote>Tᴏᴛᴀʟ ꜰɪʟᴇꜱ ᴜᴘʟᴏᴀᴅᴇᴅ = {
+                    len(namelist)}</blockquote>\n─────────────────────────\n\n<blockquote expandable>Sᴇʟᴇᴄᴛ ᴀ ʟᴇᴛᴛᴇʀ ʙᴇʟᴏᴡ ᴛᴏ ᴡᴀᴛᴄʜ ʏᴏᴜʀ ꜰᴀᴠᴏᴜʀɪᴛᴇ ᴀɴɪᴍᴇ ʟɪꜱᴛ</blockquote></b>"
             ),
             reply_markup=InlineKeyboardMarkup(keyboard),
         )
@@ -104,8 +104,8 @@ async def awailable_command(client, message, query=0, edit=0):
     if edit:
         await edit.message.edit(
             text=text_go(
-                f"🔤 anime index \n <blockquote>total uploads = ✨{
-                    len(namelist)}✨ </blockquote>"
+                f"<b> 𝗔𝗡𝗜𝗠𝗘 𝗜𝗡𝗗𝗘𝗫\n\n<blockquote>Tᴏᴛᴀʟ ꜰɪʟᴇꜱ ᴜᴘʟᴏᴀᴅᴇᴅ = {
+                    len(namelist)}</blockquote>\n─────────────────────────\n\n<blockquote expandable>Sᴇʟᴇᴄᴛ ᴀ ʟᴇᴛᴛᴇʀ ʙᴇʟᴏᴡ ᴛᴏ ᴡᴀᴛᴄʜ ʏᴏᴜʀ ꜰᴀᴠᴏᴜʀɪᴛᴇ ᴀɴɪᴍᴇ ʟɪꜱᴛ</blockquote></b>"
             ),
             reply_markup=InlineKeyboardMarkup(keyboard),
         )
