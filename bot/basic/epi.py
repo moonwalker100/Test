@@ -421,10 +421,6 @@ async def file(client, q=0, filei=0, uuid=0, anime_id=0, episode=0, verify=0, me
     if FILE_AUTO_DELETE > 0:
         try:
             notification_msg = await sent_msg.reply_text(
-                f"<blockquote>This file will be deleted in {FILE_AUTO_DELETE / 60} Minutes. Because of Copyright issue.</blockquote>"
-            )
-
-            notification_msg = await sent_msg.reply_text(
                 f"""<b>⚠️ Dᴜᴇ ᴛᴏ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs....\n<blockquote>Yᴏᴜʀ ғɪʟᴇs ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ᴡɪᴛʜɪɴ <a href="https://t.me/{username}">{time}</a>ᴍɪɴᴜᴛᴇs.Sᴏ ᴘʟᴇᴀsᴇ ғᴏʀᴡᴀʀᴅ ᴛʜᴇᴍ ᴛᴏ ᴀɴʏ ᴏᴛʜᴇʀ ᴘʟᴀᴄᴇ ғᴏʀ ғᴜᴛᴜʀᴇ ᴀᴠᴀɪʟᴀʙɪʟɪᴛʏ.</b></blockquote>"""
             )
 
@@ -445,12 +441,12 @@ async def file(client, q=0, filei=0, uuid=0, anime_id=0, episode=0, verify=0, me
             try:
                 me = await client.get_users("me")
                 await notification_msg.edit_text(
-                    f"<blockquote><b>><i>Your file has been deleted.\n\n>Filename : {filename}</i></b></blockquote>",
+                    f"<b>Pʀᴇᴠɪᴏᴜs Mᴇssᴀɢᴇ ᴡᴀs Dᴇʟᴇᴛᴇᴅ 🗑\n<blockquote>Iғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇs ᴀɢᴀɪɴ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ \n\nFɪʟᴇɴᴀᴍᴇ : {filename}.</blockquote></b>",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
                                 InlineKeyboardButton(
-                                    "ɢᴇᴛ ꜰɪʟᴇ ᴀɢᴀɪɴ",
+                                    "♻️ Cʟɪᴄᴋ Hᴇʀᴇ",
                                     url=f"t.me/{me.username}?start=get_{fileid}_{anime_id}_{episode}",
                                 )
                             ]
