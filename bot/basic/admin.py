@@ -11,7 +11,7 @@ from database import get_variable, set_variable
 
 async def admin(client, message):
     a = await get_variable("admin", [])
-    txt = f"<blockquote expandable>𝗔𝗗𝗠𝗜𝗡 𝗣𝗔𝗡𝗘𝗟 ♻️\n</blockquote>\n<blockquote expandable> 𝗔𝗗𝗠𝗜𝗡 :- {a}\n</blockquote>\n<blockquote expandable> 𝗡𝗢𝗧𝗘 - ᴀᴅᴍɪɴꜱ ᴄᴀɴ ᴜꜱᴇ ᴀʟʟ ʙᴏᴛ ᴄᴏᴍᴍᴍᴀɴᴅꜱ ᴇxᴄᴇᴘᴛ ꜰꜱᴜʙ, ᴀᴅᴍɪɴ ‼️</blockquote>"
+    txt = f"<blockquote expandable><b>𝗔𝗗𝗠𝗜𝗡 𝗣𝗔𝗡𝗘𝗟 ♻️\n</blockquote>\n<blockquote expandable> 𝗔𝗗𝗠𝗜𝗡 :- {a}\n</blockquote>\n<blockquote expandable> 𝗡𝗢𝗧𝗘 - ᴀᴅᴍɪɴꜱ ᴄᴀɴ ᴜꜱᴇ ᴀʟʟ ʙᴏᴛ ᴄᴏᴍᴍᴍᴀɴᴅꜱ ᴇxᴄᴇᴘᴛ ꜰꜱᴜʙ, ᴀᴅᴍɪɴ ‼️</b></blockquote>"
     keyboard = InlineKeyboardMarkup(
         [
             [
@@ -19,7 +19,7 @@ async def admin(client, message):
                 InlineKeyboardButton("𝗥𝗘𝗠𝗢𝗩𝗘 𝗔𝗗𝗠𝗜𝗡", callback_data="admin_rem"),
             ],
             [
-                InlineKeyboardButton("ϲℓοѕє", callback_data="close"),
+                InlineKeyboardButton("Cʟᴏꜱᴇ", callback_data="close"),
             ],
         ]
     )
@@ -45,10 +45,10 @@ async def admin2(client, query):
         )
         return
     txt = (
-        "<blockquote expandable>‼️ <b>ᴅᴏ ᴏɴᴇ ʙᴇʟᴏᴡ</b>‼️ </blockquote>\n"
+        "<blockquote expandable>‼️ <b>Dᴏ ᴏɴᴇ ʙᴇʟᴏᴡ</b>‼️ </blockquote>\n"
         "<blockquote expandable><i>ꜰᴏʀᴡᴀʀᴅ ᴀ ᴍᴇꜱꜱᴀɢᴇ ꜰʀᴏᴍ ᴀᴅᴍɪɴ</i></blockquote>\n"
         "<blockquote expandable><i>ꜱᴇɴᴅ ᴍᴇ ᴀᴅᴍɪɴ ɪᴅ</i></blockquote>"
-        "<blockquote>𝗠𝗔𝗞𝗘 𝗦𝗨𝗥𝗘 𝗔𝗗𝗠𝗜𝗡 𝗜𝗗 𝗜𝗦 𝗩𝗔𝗟𝗜𝗗</blockquote>"
+        "<blockquote>ᴍᴀᴋᴇ ꜱᴜʀᴇ ᴀᴅᴍɪɴ ɪᴅ ɪꜱ ᴠᴀʟɪᴅ </blockquote>"
     )
 
     if action == "add":
