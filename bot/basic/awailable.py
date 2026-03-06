@@ -52,7 +52,7 @@ async def awailable_command(client, message, query=0, edit=0):
 
     if query:
         await query.message.edit(
-            text="🔤 *Select a letter to view available anime:*",
+            text="𝗔𝗩𝗔𝗜𝗟𝗔𝗕𝗟𝗘 𝗔𝗡𝗜𝗠𝗘\n\n<blockquote>Sᴇʟᴇᴄᴛ ᴀ ʟᴇᴛᴛᴇʀ ᴛᴏ ᴡᴀᴛᴄʜ ʏᴏᴜʀ ᴀɴɪᴍᴇ ʙᴜᴄᴋᴇᴛ ʟɪꜱᴛ</blockquote>",
             reply_markup=InlineKeyboardMarkup(keyboard),
         )
         return
@@ -67,7 +67,7 @@ async def awailable_command(client, message, query=0, edit=0):
         return
     await message.reply_photo(
         photo=poster,
-        caption=text_go("🔤 *Select a letter to view available anime:*"),
+        caption=text_go("𝗔𝗩𝗔𝗜𝗟𝗔𝗕𝗟𝗘 𝗔𝗡𝗜𝗠𝗘\n\n<blockquote>Sᴇʟᴇᴄᴛ ᴀ ʟᴇᴛᴛᴇʀ ᴛᴏ ᴡᴀᴛᴄʜ ʏᴏᴜʀ ᴀɴɪᴍᴇ ʙᴜᴄᴋᴇᴛ ʟɪꜱᴛ</blockquote>"),
         reply_markup=InlineKeyboardMarkup(keyboard),
     )
 async def awailable_command(client, message, query=0, edit=0):
@@ -97,7 +97,7 @@ async def awailable_command(client, message, query=0, edit=0):
 
     if query:
         await query.message.edit(
-            text="🔤 *Select a letter to view available anime:*",
+            text="𝗔𝗩𝗔𝗜𝗟𝗔𝗕𝗟𝗘 𝗔𝗡𝗜𝗠𝗘\n\n<blockquote>Sᴇʟᴇᴄᴛ ᴀ ʟᴇᴛᴛᴇʀ ᴛᴏ ᴡᴀᴛᴄʜ ʏᴏᴜʀ ᴀɴɪᴍᴇ ʙᴜᴄᴋᴇᴛ ʟɪꜱᴛ</blockquote>",
             reply_markup=InlineKeyboardMarkup(keyboard),
         )
         return
@@ -112,7 +112,7 @@ async def awailable_command(client, message, query=0, edit=0):
         return
     await message.reply_photo(
         photo=poster,
-        caption=text_go("🔤 *Select a letter to view available anime:*"),
+        caption=text_go("𝗔𝗩𝗔𝗜𝗟𝗔𝗕𝗟𝗘 𝗔𝗡𝗜𝗠𝗘\n\n<blockquote>Sᴇʟᴇᴄᴛ ᴀ ʟᴇᴛᴛᴇʀ ᴛᴏ ᴡᴀᴛᴄʜ ʏᴏᴜʀ ᴀɴɪᴍᴇ ʙᴜᴄᴋᴇᴛ ʟɪꜱᴛ</blockquote>"),
         reply_markup=InlineKeyboardMarkup(keyboard),
             )
     
@@ -152,8 +152,8 @@ async def paginate_anime_list(client, cq: CallbackQuery):
     page = max(1, min(page, pages))
 
     if total == 0:
-        log.info(f"No matching anime for letter '{letter}'")
-        return await cq.answer(f"No anime starting with '{letter}'", show_alert=True)
+        log.info(f"<blockquote>Nᴏ ᴍᴀᴛᴄʜɪɴɢ ᴀɴɪᴍᴇ ꜰᴏʀ ʟᴇᴛᴛᴇʀ '{letter}'</blockquote>")
+        return await cq.answer(f"<blockquote>Nᴏ ᴍᴀᴛᴄʜɪɴɢ ᴀɴɪᴍᴇ ꜰᴏʀ ʟᴇᴛᴛᴇʀ '{letter}'</blockquote>", show_alert=True)
 
     start = (page - 1) * ITEMS_PER_PAGE
     end = start + ITEMS_PER_PAGE
