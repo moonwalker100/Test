@@ -105,7 +105,7 @@ async def awailable_command(client, message, query=0, edit=0):
         await edit.message.edit(
             text=text_go(
                 f"<b> 𝗔𝗡𝗜𝗠𝗘 𝗜𝗡𝗗𝗘𝗫\n\n<blockquote>Tᴏᴛᴀʟ ꜰɪʟᴇꜱ ᴜᴘʟᴏᴀᴅᴇᴅ = {
-                    len(namelist)}</blockquote>\n─────────────────────────\n\n<blockquote expandable>Sᴇʟᴇᴄᴛ ᴀ ʟᴇᴛᴛᴇʀ ʙᴇʟᴏᴡ ᴛᴏ ᴡᴀᴛᴄʜ ʏᴏᴜʀ ꜰᴀᴠᴏᴜʀɪᴛᴇ ᴀɴɪᴍᴇ ʟɪꜱᴛ</blockquote></b>"
+                    len(namelist)}</blockquote>\n────────────────\n<blockquote expandable>Sᴇʟᴇᴄᴛ ᴀ ʟᴇᴛᴛᴇʀ ʙᴇʟᴏᴡ ᴛᴏ ᴡᴀᴛᴄʜ ʏᴏᴜʀ ꜰᴀᴠᴏᴜʀɪᴛᴇ ᴀɴɪᴍᴇ ʟɪꜱᴛ</blockquote></b>"
             ),
             reply_markup=InlineKeyboardMarkup(keyboard),
         )
@@ -197,7 +197,7 @@ async def paginate_anime_list(client, cq: CallbackQuery):
         )
     
     await cq.message.edit(
-        text=f"📚 Anime starting with <b>{letter}</b> (Page {page}/{pages}):",
+        text=f"<b>𝗔𝗡𝗜𝗠𝗘 𝗦𝗘𝗖𝗧𝗜𝗢𝗡 : {letter} 𝗔𝗡𝗜𝗠𝗘 𝗖𝗢𝗟𝗟𝗘𝗖𝗧𝗜𝗢𝗡\n<blockquote>Hᴇʀᴇ ᴀʀᴇ ᴛʜᴇ ᴀɴɪᴍᴇ ᴜᴘʟᴏᴀᴅᴇᴅ\n(Page {page}/{pages}):</blockquote></b>",
         reply_markup=InlineKeyboardMarkup(keyboard),
     )
     
