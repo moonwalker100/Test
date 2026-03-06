@@ -307,11 +307,11 @@ async def premcall(client, query):
         inline_keyboard=[
             [
                 InlineKeyboardButton(
-                    text="💳 Buy Premium",
-                    url=f"tg://user?id=1718481517"
+                    text="💳 Bᴜʏ ᴘʀᴇᴍɪᴜᴍ",
+                    url=f"https//t.me/Here_remo"
                 ),
                 InlineKeyboardButton(
-                    text="🎇 Cancel",
+                    text="🎇 Cᴀɴᴄᴇʟ",
                     callback_data=f"cancel"
                 ),
             ]
