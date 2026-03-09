@@ -301,10 +301,10 @@ async def force_subs(client, message):
         ]
     )
     await a.delete()
-    text = f"<blockquote>💠 𝙔𝙊𝙊, {
-        message.from_user.mention} ❗️</blockquote>\n\n 𝙔𝙊𝙐 𝙃𝘼𝙑𝙀𝙉'𝙏 𝙅𝙊𝙄𝙉𝙀𝘿 {
+    text = f"<b><blockquote>⚠️ Hᴇʏ, {
+        message.from_user.mention} ×</blockquote>\n Yᴏᴜ ʜᴀᴠᴇɴ'ᴛ ᴊᴏɪɴᴇᴅ {
         len(buttons) - 1}/{
-            len(FORCE_SUB_CHANNELS) + len(r_subo)} 𝙊𝙁 𝙏𝙃𝙀 𝘾𝙃𝘼𝙉𝙉𝙀𝙇𝙎 𝙍𝙀𝙌𝙐𝙄𝙍𝙀𝘿 𝙏𝙊 𝙐𝙎𝙀 𝙏𝙃𝙀 𝘽𝙊𝙏.. ♻️💤\n\n<blockquote>📵 ᴊᴏɪɴ ɴᴏᴡ ᴛᴏ ᴜꜱᴇ ᴛʜᴇ ʙᴏᴛ ‼️</blockquote>"
+            len(FORCE_SUB_CHANNELS) + len(r_subo)} ᴄʜᴀɴɴᴇʟs ʏᴇᴛ. Pʟᴇᴀsᴇ ᴊᴏɪɴ ᴛʜᴇ ᴄʜᴀɴɴᴇʟs ᴘʀᴏᴠɪᴅᴇᴅ ʙᴇʟᴏᴡ, ᴛʜᴇɴ ᴛʀʏ ᴀɢᴀɪɴ...!</b>"
     await message.reply_photo(
         photo=IMAGE_URL,
         caption=text,
@@ -412,10 +412,10 @@ async def check_subscription(client, callback_query: CallbackQuery, string):
             )
         ]
     )
-    text = f"<blockquote>💠 𝙔𝙊𝙊, {
-        callback_query.from_user.mention} ❗️</blockquote>\n\n 𝙔𝙊𝙐 𝙃𝘼𝙑𝙀𝙉'𝙏 𝙅𝙊𝙄𝙉𝙀𝘿 {
+    text = f"<b><blockquote>⚠️ Hᴇʏ, {
+        message.from_user.mention} ×</blockquote>\n Yᴏᴜ ʜᴀᴠᴇɴ'ᴛ ᴊᴏɪɴᴇᴅ {
         len(buttons) - 1}/{
-            len(FORCE_SUB_CHANNELS) + len(r_subo)} 𝙊𝙁 𝙏𝙃𝙀 𝘾𝙃𝘼𝙉𝙉𝙀𝙇𝙎 𝙍𝙀𝙌𝙐𝙄𝙍𝙀𝘿 𝙏𝙊 𝙐𝙎𝙀 𝙏𝙃𝙀 𝘽𝙊𝙏.. ♻️💤\n\n<blockquote>📵 ᴊᴏɪɴ ɴᴏᴡ ᴛᴏ ᴜꜱᴇ ᴛʜᴇ ʙᴏᴛ ‼️</blockquote>"
+            len(FORCE_SUB_CHANNELS) + len(r_subo)} ᴄʜᴀɴɴᴇʟs ʏᴇᴛ. Pʟᴇᴀsᴇ ᴊᴏɪɴ ᴛʜᴇ ᴄʜᴀɴɴᴇʟs ᴘʀᴏᴠɪᴅᴇᴅ ʙᴇʟᴏᴡ, ᴛʜᴇɴ ᴛʀʏ ᴀɢᴀɪɴ...!</b>"
     await callback_query.answer(
         "Bete I like your smartness But Channel to join karna padega 🪬💀",
         show_alert=True,
